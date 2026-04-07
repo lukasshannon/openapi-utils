@@ -1,0 +1,37 @@
+{
+    "*": {
+        "type": "",
+        "format": null,
+        "description": null,
+        "example": null,
+        "readOnly": false,
+        "writeOnly": false,
+        "nullable": false
+    },
+    "array": {
+        "items": {},
+        "minItems": null,
+        "maxItems": null,
+        "uniqueItems": false
+    },
+    "boolean": {},
+    "number": {
+        "minimum": null,
+        "maximum": null,
+        "exclusiveMinimum": false,
+        "exclusiveMaximum": false,
+        "multipleOf": null
+    },
+    "object": {
+        "properties": {},
+        "required": [],
+        "additionalProperties": true,
+        "minProperties": null,
+        "maxProperties": null
+    },
+    "string": {
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+    }
+}

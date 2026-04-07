@@ -1,0 +1,353 @@
+[
+    {
+        "format": null,
+        "type": "number",
+        "description": "any number",
+        "example": 1,
+        "source": "OAS"
+    },
+    {
+        "format": null,
+        "type": "integer",
+        "description": "integer number",
+        "example": 1,
+        "source": "OAS"
+    },
+    {
+        "format": null,
+        "type": "string",
+        "description": "string of text",
+        "example": "text",
+        "source": "OAS"
+    },
+    {
+        "format": null,
+        "type": "boolean",
+        "description": "boolean values true and false",
+        "example": true,
+        "source": "OAS"
+    },
+    {
+        "format": null,
+        "type": "array",
+        "description": "array of items; items keyword is required",
+        "example": [1, 2, 3],
+        "source": "OAS"
+    },
+    {
+        "format": null,
+        "type": "object",
+        "description": "collection of property/value pairs",
+        "example": {"key": "value"},
+        "source": "OAS"
+    },
+    {
+        "format": "base64url",
+        "type": "string",
+        "description": "binary data encoded as a url-safe string as defined in RFC4648",
+        "example": "U3dhZ2dlciByb2Nrcw==",
+        "source": null
+    },
+    {
+        "format": "binary",
+        "type": "string",
+        "description": "any sequence of octets",
+        "example": "<octets>",
+        "source": "OAS"
+    },
+    {
+        "format": "byte",
+        "type": "string",
+        "description": "base64 encoded data as defined in RFC4648",
+        "example": "U3dhZ2dlciByb2Nrcw==",
+        "source": "OAS"
+    },
+    {
+        "format": "char",
+        "type": "string",
+        "description": "single character",
+        "example": "a",
+        "source": null
+    },
+    {
+        "format": "commonmark",
+        "type": "string",
+        "description": "commonmark-formatted text",
+        "example": "A **Markdown** string.",
+        "source": "OAS"
+    },
+    {
+        "type": "string",
+        "format": "date-time-local",
+        "description": "RFC3339 date-time without the timezone component",
+        "example": "1999-12-31T23:59:59.999",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,3})?$",
+        "source": null
+    },
+    {
+        "format": "date-time",
+        "type": "string",
+        "description": "date and time as defined by date-time - RFC3339",
+        "example": "2017-07-21T17:32:28Z",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "date",
+        "type": "string",
+        "description": "date as defined by full-date - RFC3339",
+        "example": "2017-07-21",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "decimal",
+        "type": "string",
+        "description": "fixed point decimal number of unspecified precision and range",
+        "example": "1.23",
+        "source": null
+    },
+    {
+        "format": "decimal128",
+        "type": "string",
+        "description": "decimal floating-point number with 34 significant decimal digits",
+        "example": "1.00000000000000000000000000000000001",
+        "source": null
+    },
+    {
+        "format": "double-int",
+        "type": "number",
+        "description": "integer that can be stored in an IEEE 754 double-precision number without loss of precision",
+        "example": 9007199254740991,
+        "source": null
+    },
+    {
+        "format": "double",
+        "type": "number",
+        "description": "double precision floating point number",
+        "example": 1.0000000001,
+        "source": "OAS"
+    },
+    {
+        "format": "duration",
+        "type": "string",
+        "description": "duration as defined by duration - RFC3339",
+        "example": "P3Y6M4DT12H30M5S",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "email",
+        "type": "string",
+        "description": "email address as defined as Mailbox in RFC5321",
+        "example": "user@example.com",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "float",
+        "type": "number",
+        "description": "single precision floating point number",
+        "example": 1.0,
+        "source": "OAS"
+    },
+    {
+        "format": "hostname",
+        "type": "string",
+        "description": "host name as defined by RFC1123",
+        "example": "example.com",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "html",
+        "type": "string",
+        "description": "HTML-formatted text",
+        "example": "<p>This is a paragraph.</p>",
+        "source": "OAS"
+    },
+    {
+        "format": "http-date",
+        "type": "string",
+        "description": "date and time as defined by HTTP-date - RFC7231",
+        "example": "Sun, 06 Nov 1994 08:49:37 GMT",
+        "source": null
+    },
+    {
+        "format": "idn-email",
+        "type": "string",
+        "description": "email address as defined as Mailbox in RFC6531",
+        "example": "用户@例子.广告",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "idn-hostname",
+        "type": "string",
+        "description": "internationalized host name as defined by RFC5890",
+        "example": "例子.广告",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "int16",
+        "type": "integer",
+        "description": "signed 16-bit integer",
+        "example": 32767,
+        "source": null
+    },
+    {
+        "format": "int32",
+        "type": "integer",
+        "description": "signed 32-bit integer",
+        "example": 2147483647,
+        "source": "OAS"
+    },
+    {
+        "format": "int64",
+        "type": "integer",
+        "description": "signed 64-bit integer",
+        "example": 10000000000,
+        "source": "OAS"
+    },
+    {
+        "format": "int8",
+        "type": "integer",
+        "description": "signed 8-bit integer",
+        "example": 127,
+        "source": "OAS"
+    },
+    {
+        "format": "ipv4",
+        "type": "string",
+        "description": "IPv4 address as defined as dotted-quad by RFC2673",
+        "example": "192.168.0.1",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "ipv6",
+        "type": "string",
+        "description": "IPv6 address as defined by RFC4673",
+        "example": "2001:0db8:85a3:0000:0000:8a2e:0370:7334",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "iri-reference",
+        "type": "string",
+        "description": "Internationalized Resource Identifier as defined in RFC3987",
+        "example": "//example.com/path?query#fragment",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "iri",
+        "type": "string",
+        "description": "Internationalized Resource Identifier as defined in RFC3987",
+        "example": "http://example.com/path?query#fragment",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "json-pointer",
+        "type": "string",
+        "description": "JSON string representation of a JSON Pointer as defined in RFC6901",
+        "example": "/foo/bar/0",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "media-range",
+        "type": "string",
+        "description": "media type as defined by the media-range ABNF production in RFC9110",
+        "example": "application/json; charset=utf-8",
+        "source": "OAS"
+    },
+    {
+        "format": "password",
+        "type": "string",
+        "description": "string that hints to obscure the value",
+        "example": "password123",
+        "source": "OAS"
+    },
+    {
+        "format": "regex",
+        "type": "string",
+        "description": "regular expression as defined in ECMA-262",
+        "example": "^[a-zA-Z0-9]+$",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "relative-json-pointer",
+        "type": "string",
+        "description": "JSON string representation of a relative JSON Pointer as defined in draft RFC6901",
+        "example": "0/foo/bar/0",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "time-local",
+        "type": "string",
+        "description": "RFC3339 time without the timezone component",
+        "example": "23:59:59.999",
+        "source": null
+    },
+    {
+        "format": "time",
+        "type": "string",
+        "description": "time as defined by full-time - RFC3339",
+        "example": "23:59:59Z",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "uint16",
+        "type": "integer",
+        "description": "unsigned 16-bit integer",
+        "example": 65535,
+        "source": "OAS"
+    },
+    {
+        "format": "uint32",
+        "type": "integer",
+        "description": "unsigned 32-bit integer",
+        "example": 4294967295,
+        "source": "OAS"
+    },
+    {
+        "format": "uint64",
+        "type": "integer",
+        "description": "unsigned 64-bit integer",
+        "example": 18446744073709551615,
+        "source": "OAS"
+    },
+    {
+        "format": "uint8",
+        "type": "integer",
+        "description": "unsigned 8-bit integer",
+        "example": 255,
+        "source": "OAS"
+    },
+    {
+        "format": "unix-time",
+        "type": "number",
+        "description": "seconds since Jan 1st 1970 - IEEE1003.1-2024/POSIX.1-2024",
+        "example": 1626864000,
+        "source": null
+    },
+    {
+        "format": "uri-reference",
+        "type": "string",
+        "description": "URI reference as defined in RFC3986",
+        "example": "//example.com/path?query#fragment",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "uri-template",
+        "type": "string",
+        "description": "URI Template as defined in RFC6570",
+        "example": "/users/{userId}",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "uri",
+        "type": "string",
+        "description": "Uniform Resource Identifier as defined in RFC3986",
+        "example": "http://example.com/path?query#fragment",
+        "source": "JSON Schema"
+    },
+    {
+        "format": "uuid",
+        "type": "string",
+        "description": "Universally Unique Identifier as defined in RFC4122",
+        "example": "123e4567-e89b-12d3-a456-426614174000",
+        "source": "JSON Schema"
+    }
+]
